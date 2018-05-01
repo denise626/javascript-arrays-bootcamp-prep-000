@@ -42,8 +42,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  chocolateBars.slice(0, chocolateBars.length - 2)
-  chocolateBars
+  array.slice(0, array.length - 2)
+  return array
 }
 
 
